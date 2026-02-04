@@ -6,11 +6,9 @@ from datetime import datetime, timedelta
 # -------------------------
 # CONFIG
 # -------------------------
-import os
-
 EMAIL_FROM = "toluasua.ms@gmail.com"
 EMAIL_TO = "toluasua.ms@gmail.com"
-EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD")
+EMAIL_PASSWORD = "pjcn lmej iwjh ynwq"
 
 RSS_FEEDS = {
     "Neil Patel": "https://neilpatel.com/feed/",
@@ -65,4 +63,4 @@ with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
     server.login(EMAIL_FROM, EMAIL_PASSWORD)
     server.send_message(msg)
 
-print("Email sent successfully.")
+print("✅ Email sent successfully.")
