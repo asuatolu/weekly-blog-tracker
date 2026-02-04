@@ -24,4 +24,4 @@ jobs:
       - name: Run script
         env:
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
-        run: python main.py
+        run: weekly-blog-tracker/python main.py
