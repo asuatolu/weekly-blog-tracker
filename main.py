@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 # -------------------------
 EMAIL_FROM = "toluasua.ms@gmail.com"
 EMAIL_TO = "toluasua.ms@gmail.com"
-EMAIL_PASSWORD = "pjcn lmej iwjh ynwq"
+EMAIL_PASSWORD = "pjcnlmejiwjhynwq"
 
 RSS_FEEDS = {
     "Neil Patel": "https://neilpatel.com/feed/",
